@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elementDB", "elementDB\elementDB.csproj", "{FA0073CB-23BA-4C99-A688-E6F408F5501C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB85DE3B-9946-4F89-98F0-AB35B68C8832}"
+	ProjectSection(SolutionItems) = preProject
+		SQLCustom.cs = SQLCustom.cs
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{9676B5A9-4F7C-4232-8DFD-3DA9CB8E10C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA0073CB-23BA-4C99-A688-E6F408F5501C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0073CB-23BA-4C99-A688-E6F408F5501C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0073CB-23BA-4C99-A688-E6F408F5501C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0073CB-23BA-4C99-A688-E6F408F5501C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9676B5A9-4F7C-4232-8DFD-3DA9CB8E10C2}.Debug|Any CPU.ActiveCfg = Debug
+		{9676B5A9-4F7C-4232-8DFD-3DA9CB8E10C2}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDF04F26-F435-47A7-9E21-E4B00A7FA181}
+	EndGlobalSection
+EndGlobal
